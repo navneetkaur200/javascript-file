@@ -5,7 +5,7 @@
 // B('My self Navneet Kaur'); 
 // let age = 18;
 
-// let welcome = (age < 18) ? () => console.log('Baby') :() => console.log('So I am Adult');
+// let welcome = (age <= 18) ? () => console.log('Baby') :() => console.log('So I am Adult');
 
 // welcome();
 
@@ -53,30 +53,30 @@
 // console.log(demo)
 // console.log(demo.getvalue(20,30))
 
-function printarray(arr)
-{
-for(i=0;i<arr.length;i++)
-{
-    console.log(arr[i])
-}
-return {lengthofarray:arr.length,sorting:(arr)=>
-{  
-     for(i=0;i<arr.length;i++)
-    {
-       for(j=0;j<4;j++)
-       {
-          if(arr[i]<arr[j])  
+// function printarray(arr)
+// {
+// for(i=0;i<arr.length;i++)
+// {
+//     console.log(arr[i])
+// }
+// return {lengthofarray:arr.length,sorting:(arr)=>
+// {  
+//      for(i=0;i<arr.length;i++)
+//     {
+//        for(j=0;j<4;j++)
+//        {
+//           if(arr[i]<arr[j])  
     
-       {     
-        t=arr[i]
-        arr[i]=arr[j]
-       arr[j]=t
-       console.log(arr)
-    }
-    }
-  }  
-}  
-}
-}
-demo=printarray([55,23,27,65])
-console.log(demo.sorting([55,23,27,65]))
+//        {     
+//         t=arr[i]
+//         arr[i]=arr[j]
+//        arr[j]=t
+//        console.log(arr)
+//     }
+//     }
+//   }  
+// }  
+// }
+// }
+// demo=printarray([55,23,27,65])
+// console.log(demo.sorting([55,23,27,65]))
