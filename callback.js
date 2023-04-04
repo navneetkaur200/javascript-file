@@ -13,7 +13,7 @@ function greetings(){
     return {name:'navneet',training:'javascripts'}
 }
 
-
+//order of excution of function is maintain f1->f2->f3 is called callback
 
 
 

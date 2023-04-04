@@ -8,12 +8,12 @@
 //  pattern = /[h]/g;
 // console.log( text.match(pattern))
 
-// text1= "123456789";
-// pattern1 = /[^1-5]/g;
-// console.log(text1.match(pattern1))
+text1= "123456789";
+pattern1 = /[^1-5]/g;
+console.log(text1.match(pattern1))
 
-// re=new RegExp(/[1-5]/)
-// console.log(re.test('09876'))
+re=new RegExp(/[1-5]/)
+console.log(re.test('09876'))
 
 // text2 = "re, green red, green, gren, gr, blue, yellow";
 //  pattern2= /(red|green)/g;
